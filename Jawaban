@@ -1,0 +1,27 @@
+Functional Programming (FP) dan Object-Oriented Programming (OOP) adalah dua paradigma pemrograman yang berbeda dalam cara pendekatan dan penyelesaian masalah.
+
+Pada dasarnya, FP lebih fokus pada fungsi dan data yang tidak berubah (immutable), sedangkan OOP lebih fokus pada objek dan interaksi antar objek.
+
+Contoh program Functional Programming pada Python:
+
+# Menggunakan fungsi map() dan lambda untuk menggandakan semua nilai dalam list
+my_list = [1, 2, 3, 4, 5]
+new_list = list(map(lambda x: x*2, my_list))
+print(new_list) # Output: [2, 4, 6, 8, 10]
+
+Contoh program Object-Oriented Programming pada Python:
+
+# Membuat class 'Rectangle' dan menghitung luasnya dengan menggunakan metode
+class Rectangle:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+    
+    def area(self):
+        return self.width * self.height
+
+# Membuat objek rectangle dengan ukuran 5x10 dan menghitung luasnya
+rectangle = Rectangle(5, 10)
+print(rectangle.area()) # Output: 50
+
+Dalam contoh program FP, kita hanya menggunakan fungsi untuk mengolah data, sedangkan dalam contoh program OOP, kita membuat objek dan menggunakan metode pada objek tersebut untuk melakukan operasi pada data.
